@@ -1,4 +1,4 @@
--- 
+-- Total sales by fuel Type
 select Fuel_Type,sum(Sales_Volume) Total_sales
 from bmw_sales
 group by Fuel_Type
