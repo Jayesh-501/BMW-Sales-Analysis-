@@ -1,110 +1,87 @@
-🚗 BMW Sales Analysis Dashboard
-📊 Overview
+# 🚗 BMW Sales Analysis Dashboard
 
-This Power BI project analyzes BMW car sales data to uncover key business insights related to sales performance, trends, and product distribution. The visuals make it easier to spot patterns and make recommendations.
+## 📊 Overview  
+This Power BI project analyzes BMW car sales data to uncover key insights related to sales performance, regional trends, and customer preferences.  
+The goal is to transform raw data into meaningful visuals that support data-driven decision-making.
 
-🎯 Objective
+---
 
-The main goals of this project are to:
+## 🎯 Objective  
+- Identify top-performing regions and models  
+- Understand customer preferences (fuel type, color, transmission)  
+- Analyze sales trends over time  
+- Recommend actionable insights for business growth  
 
-Identify the best-performing regions, models, and segments
+---
 
-Understand customer preferences (fuel type, color, etc.)
+## 🧩 Dataset Details  
+**Dataset Columns:**  
+- Model  
+- Year  
+- Region  
+- Color  
+- Fuel_Type  
+- Transmission  
+- Engine_Size_L  
+- Mileage_KM  
+- Price_USD  
+- Sales_Volume  
+- Sales_Classification  
 
-Observe how sales evolve over time
+---
 
-Provide data-backed suggestions for strategy
+## 🧹 Data Cleaning & Preparation  
+Data was pre-processed using **SQL** before visualization:  
+- Removed duplicates and null values  
+- Standardized year and price formats  
+- Cleaned categorical columns (fuel type, transmission, etc.)  
+- Validated numeric columns like engine size and mileage  
 
-🧩 Dataset Details
+---
 
-Columns / Variables used:
+## 📈 Dashboard Features  
+**KPIs:**  
+- Total Models  
+- Average Mileage  
+- Total Colors  
+- Average Engine Size  
 
-Model
+**Visuals Included:**  
+- Sales Volume Over Time  
+- Sales by Region  
+- Fuel Type Distribution  
+- Color Percentage Pie Chart  
+- Model Count by Year  
 
-Year
+---
 
-Region
+## 🔍 Key Insights  
+- Diesel models have higher sales in Europe and Asia.  
+- White and Black are the most popular color choices.  
+- Petrol model sales declined after 2020, while hybrid models grew steadily.  
+- 3-Series and 5-Series remain the best-selling BMW models.  
 
-Color
+---
 
-Fuel_Type
+## 💡 Conclusion  
+The analysis highlights a growing trend toward **hybrid and fuel-efficient models**.  
+BMW can increase market share by focusing on hybrid offerings, especially in high-demand regions, and optimizing stock for top colors and models.
 
-Transmission
+---
 
-Engine_Size_L
+## 🛠️ Tools & Technologies  
+- **Power BI** – Data visualization and dashboarding  
+- **SQL** – Data cleaning and transformation  
+- **Excel / CSV** – Data source  
 
-Mileage_KM
+---
 
-Price_USD
+## 🌐 Live Dashboard  
+👉 **[View the Interactive Power BI Dashboard Here](https://app.powerbi.com/view?r=eyJrIjoiNjU2MzE1MDAtNThkZC00NjNjLWJlNmUtOTczODE4MTc5NWU1IiwidCI6Ijg3NTVhZjlkLWM2YzQtNDJmOS05ZDA5LTYzZWI5MTUxNjNmZCJ9)**  
 
-Sales_Volume
+---
 
-Sales_Classification
-
-🧹 Data Cleaning & Preparation
-
-Data was cleaned and prepped using SQL, before importing into Power BI:
-
-Removed duplicates and null / missing data
-
-Standardized formats (e.g. year, price, categorical labels)
-
-Ensured consistency and non-erroneous numeric values
-
-Created derived columns / classifications where needed
-
-📈 Dashboard Structure & Visuals
-
-The Power BI report includes:
-
-Key Metrics / KPIs:
-
-Total number of models
-
-Average mileage
-
-Number of distinct colors
-
-Average engine size
-
-Main Visuals:
-
-Sales Volume over Years
-
-Sales Distribution by Region
-
-Fuel Type Breakdown
-
-Color Preferences / Percentages
-
-Model Count by Year
-
-🔍 Key Insights
-
-Here are some of the observations from the data:
-
-Diesel versions tend to have higher sales in certain regions (e.g. Europe, parts of Asia)
-
-Colors like White and Black are consistently top choices
-
-Petrol model sales decline post-2020, while hybrid / greener options gain some share
-
-BMW’s 3-Series and 5-Series maintain strong sales dominance
-
-💡 Recommendations & Conclusion
-
-Expand hybrid / eco-friendly model offerings in regions trending that direction
-
-Forecast inventory focusing more on popular colors and top models
-
-Monitor regional shifts to tailor marketing / product strategies
-
-🌐 View the Report
-
-You can view the interactive Power BI report here:
-👉 View BMW Sales Dashboard
-
-Author
-Jayesh Kados
-BCA Final Year | Aspiring Data Analyst
-📍 Sambhaji Nagar, India
+## 👤 Author  
+**Jayesh Kados**  
+BCA Final Year | Aspiring Data Analyst  
+📍 Sambhaji Nagar, India  
