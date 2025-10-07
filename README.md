@@ -1,26 +1,23 @@
-:
-
 🚗 BMW Sales Analysis Dashboard
 📊 Overview
 
-This Power BI project analyzes BMW car sales data to uncover key business insights related to sales performance, market trends, and product distribution.
-The dashboard helps understand how different factors like region, fuel type, and color impact overall sales.
+This Power BI project analyzes BMW car sales data to uncover key business insights related to sales performance, trends, and product distribution. The visuals make it easier to spot patterns and make recommendations.
 
 🎯 Objective
 
-The main goal of this project is to explore and visualize BMW’s sales data to:
+The main goals of this project are to:
 
-Identify top-performing regions and models
+Identify the best-performing regions, models, and segments
 
-Understand customer preferences (fuel type, color, transmission)
+Understand customer preferences (fuel type, color, etc.)
 
-Track sales trends over time
+Observe how sales evolve over time
 
-Support data-driven decision-making
+Provide data-backed suggestions for strategy
 
 🧩 Dataset Details
 
-Columns Used:
+Columns / Variables used:
 
 Model
 
@@ -46,59 +43,68 @@ Sales_Classification
 
 🧹 Data Cleaning & Preparation
 
-The data was cleaned using SQL before importing into Power BI:
+Data was cleaned and prepped using SQL, before importing into Power BI:
 
-Removed duplicate and missing values
+Removed duplicates and null / missing data
 
-Formatted year and price columns
+Standardized formats (e.g. year, price, categorical labels)
 
-Standardized categorical values (e.g., fuel type names)
+Ensured consistency and non-erroneous numeric values
 
-Verified consistency of numerical data like mileage and engine size
+Created derived columns / classifications where needed
 
-📈 Dashboard Highlights
+📈 Dashboard Structure & Visuals
 
-The Power BI dashboard includes:
+The Power BI report includes:
 
-KPIs: Total Models, Average Mileage, Total Colors, Average Engine Size
+Key Metrics / KPIs:
 
-Visuals:
+Total number of models
 
-Sales Volume by Year
+Average mileage
+
+Number of distinct colors
+
+Average engine size
+
+Main Visuals:
+
+Sales Volume over Years
 
 Sales Distribution by Region
 
-Fuel Type Percentage
+Fuel Type Breakdown
 
-Color Preference Pie Chart
+Color Preferences / Percentages
 
 Model Count by Year
 
-🔍 Insights
+🔍 Key Insights
 
-Diesel models showed higher average sales volume in Europe and Asia.
+Here are some of the observations from the data:
 
-White and Black were the most popular colors across all regions.
+Diesel versions tend to have higher sales in certain regions (e.g. Europe, parts of Asia)
 
-Sales of petrol variants declined after 2020, while hybrid models increased.
+Colors like White and Black are consistently top choices
 
-The 3-Series and 5-Series dominated overall sales.
+Petrol model sales decline post-2020, while hybrid / greener options gain some share
 
-💡 Conclusion
+BMW’s 3-Series and 5-Series maintain strong sales dominance
 
-The analysis highlights a gradual market shift toward fuel-efficient and hybrid models.
-BMW can focus on expanding its hybrid lineup in high-demand regions and optimize inventory for popular colors and models.
+💡 Recommendations & Conclusion
 
-🛠️ Tools & Technologies
+Expand hybrid / eco-friendly model offerings in regions trending that direction
 
-Power BI – Dashboard creation & visualization
+Forecast inventory focusing more on popular colors and top models
 
-SQL – Data cleaning & preparation
+Monitor regional shifts to tailor marketing / product strategies
 
-Excel / CSV – Data source format
+🌐 View the Report
 
-👤 Author
+You can view the interactive Power BI report here:
+👉 View BMW Sales Dashboard
 
+Author
 Jayesh Kados
 BCA Final Year | Aspiring Data Analyst
 📍 Sambhaji Nagar, India
