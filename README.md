@@ -77,7 +77,7 @@ BMW can increase market share by focusing on hybrid offerings, especially in hig
 ---
 
 ## 🌐 Live Dashboard  
-👉 **[View the Interactive Power BI Dashboard Here](https://app.powerbi.com/view?r=eyJrIjoiNjU2MzE1MDAtNThkZC00NjNjLWJlNmUtOTczODE4MTc5NWU1IiwidCI6Ijg3NTVhZjlkLWM2YzQtNDJmOS05ZDA5LTYzZWI5MTUxNjNmZCJ9)**  
+👉 **[View the Interactive Power BI Dashboard Here](https://app.powerbi.com/view?r=eyJrIjoiMDYwMTM1MTUtYWM3YS00NjE5LWI3MTgtYjAxZGIxYjkyZjQyIiwidCI6Ijg3NTVhZjlkLWM2YzQtNDJmOS05ZDA5LTYzZWI5MTUxNjNmZCJ9)**  
 
 ---
 
